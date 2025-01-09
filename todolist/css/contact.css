@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    color:black !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+input{
+    z-index: 1000;
+    color: black !important;
+    pointer-events: auto;
+}
+
+.contentContact{
+    width: 100%;
+    position:relative;
+    margin-top: 5rem;
+    height: 57rem;
+}
+
+.details{
+    text-align:center;
+    position: absolute;
+    left:1rem;
+    padding-left:1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    width: 46%;
+    backdrop-filter: blur(4px);
+    border-radius: 2px;
+}
+
+.details img{
+    height:4rem; 
+    width:4rem;
+}
+
+.details h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.details h4{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+#loca{
+    margin-top:3rem;
+}
+
+#mail{
+    margin-top: 3rem;
+}
+
+#form{
+    align-content:center;
+    padding: 1rem 5rem 5rem 5rem;
+    margin-top: 0rem;
+    position: absolute;
+    right:1rem;
+    width: 55%;
+    height: 75rem;
+    backdrop-filter: blur(4px);
+    border-radius: 2px;
+}
+
+.fTitle{
+    font-family: 'Roboto Black';
+    margin-top: 1rem;
+    transform: translateY(-5rem);
+}
+
+#section{
+    transform:translateY(1rem);
+}
+
+.form_con{
+    margin-top: 0rem;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+#conDrop{
+    position: absolute;
+    left: 8rem;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    border-radius: 7px;
+}
+
+.iFeild{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5rem;
+}
+
+#almsg{
+    top:12%;
+    left:-150px;
+    width:100%;
+    font-size:18px;
+    font-weight: bold;
+    margin:0 auto;
+    text-align: center;
+    color:red;
+    position: absolute;
+}
+
+.bttn{
+    margin-top: 35px;
+    margin-left: 35rem;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(15, 16, 15);
+    border-radius: 5px;color: white;
+}
