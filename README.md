@@ -1,1 +1,3 @@
 # ToDoList
+
+<p>A To-Do List web application built using HTML, CSS, JavaScript, and PHP allows users to create, manage, and track tasks efficiently. The front-end is developed with HTML to structure the user interface, while CSS is used to style the list, ensuring a clean and responsive design. JavaScript adds interactivity, enabling users to add, edit, and delete tasks dynamically without reloading the page. On the back-end, PHP manages task storage and retrieval, saving the data to a database for persistence across sessions. This project aims to provide a simple yet powerful tool for task management with a user-friendly interface.</p>
